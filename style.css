@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.top-container{
+    background: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    font-size: 30px;
+    color: aqua;
+    letter-spacing: 1px;
+}
+.text{
+    margin: 50px 5%;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    justify-content: space-between;
+}
