@@ -5,9 +5,10 @@ body{
     font-weight: 400;
     color: white;
 }
-
 .top-container{
-    background: url("https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background: url("https://cdn.pixabay.com/photo/2017/10/30/18/44/hacking-2903156_960_720.jpg");
+    background-size: cover;
+    overflow: hidden;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -15,13 +16,44 @@ body{
     color: aqua;
     letter-spacing: 1px;
 }
+h1{
+    padding-top: 76px;
+    
+}
 .text{
     margin: 50px 5%;
 }
 .navbar{
+    margin: none;
     display: flex;
+    align-items: center;
     position: fixed;
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 10%;
+    height: 10%;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 0 10px;
+}
+.navbar ul li a:hover{
+    color: red;
+}
+.navbar.active{
+    background-color: black;
+}
+.navbar.active ul li a{
+    color: white;
 }
